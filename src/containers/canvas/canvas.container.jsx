@@ -25,7 +25,7 @@ class CanvasContainer extends React.Component {
         walking: !walking,
         briskWalking: !briskWalking,
       });
-    }, 5000);
+    }, 6000);
   }
 
   render() {
