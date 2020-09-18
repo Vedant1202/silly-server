@@ -1,0 +1,83 @@
+
+.brisk-walking {
+  position: relative;
+  top: 22vh;
+  left: 25vw;
+}
+
+.leftHandExtreme {
+  position: relative;
+  width: 5vw;
+  top: -16vh;
+  left: -5vw;
+  animation: swayLeftExtreme .2s infinite;
+  transform: rotate(80deg);
+  animation-direction: alternate;
+}
+
+.rightHandExtreme {
+  position: relative;
+  width: 7vw;
+  top: -12vh;
+  left: -17vw;
+  z-index: 2;
+  animation: swayRightExtreme .2s infinite;
+  transform: rotate(160deg);
+  transform-origin: bottom left;
+  animation-direction: alternate;
+}
+
+.serverBodyExtreme {
+  position: relative;
+  width: 15vw;
+  z-index: 1;
+  animation: bounceExtreme .2s infinite;
+}
+
+@keyframes swayLeftExtreme {
+  0% {
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg);
+    transform-origin: bottom left;
+  }
+  50% {
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+    transform-origin: bottom left;
+  }
+  100% {
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg);
+    transform-origin: bottom left;
+  }
+}
+
+@keyframes swayRightExtreme {
+  0% {
+    -webkit-transform: rotate(160deg);
+    transform: rotate(160deg);
+    transform-origin: bottom left;
+  }
+  50% {
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+    transform-origin: bottom left;
+  }
+  100% {
+    -webkit-transform: rotate(160deg);
+    transform: rotate(160deg);
+    transform-origin: bottom left;
+  }
+}
+
+@keyframes bounceExtreme {
+  0% {
+    transform: translateY(0vh);
+  }
+  50% {
+    transform: translateY(2vh);
+  }
+  100% {
+    transform: translateY(-1vh);
+  }
+}
