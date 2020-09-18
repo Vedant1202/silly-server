@@ -1,0 +1,83 @@
+
+.walking {
+  position: relative;
+  top: 22vh;
+  left: 25vw;
+}
+
+.leftHandWalking {
+  position: relative;
+  width: 5vw;
+  top: -16vh;
+  left: -5vw;
+  transform: rotate(80deg);
+  animation: swayLeftWalking 3.5s infinite;
+  animation-direction: alternate;
+}
+
+.rightHandWalking {
+  position: relative;
+  width: 7vw;
+  top: -12vh;
+  left: -17vw;
+  z-index: 2;
+  animation: swayRightWalking 3.5s infinite;
+  transform: rotate(160deg);
+  transform-origin: bottom left;
+  animation-direction: alternate;
+}
+
+.serverBodyWalking {
+  position: relative;
+  width: 15vw;
+  z-index: 1;
+  animation: bounceWalking 3.5s infinite;
+}
+
+@keyframes swayLeftWalking {
+  0% {
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg);
+    transform-origin: bottom left;
+  }
+  50% {
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+    transform-origin: bottom left;
+  }
+  100% {
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg);
+    transform-origin: bottom left;
+  }
+}
+
+@keyframes swayRightWalking {
+  0% {
+    -webkit-transform: rotate(160deg);
+    transform: rotate(160deg);
+    transform-origin: bottom left;
+  }
+  50% {
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+    transform-origin: bottom left;
+  }
+  100% {
+    -webkit-transform: rotate(160deg);
+    transform: rotate(160deg);
+    transform-origin: bottom left;
+  }
+}
+
+@keyframes bounceWalking {
+  0% {
+    transform: translateY(0vh);
+  }
+  50% {
+    transform: translateY(2vh);
+  }
+  100% {
+    transform: translateY(-1vh);
+  }
+}
