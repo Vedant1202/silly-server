@@ -4,40 +4,48 @@ import './canvas.styles.scss';
 
 import Walking from '../../components/walking/walking.component';
 import BriskWalking from '../../components/brisk-walking/brisk-walking.component';
+import Running from '../../components/running/running.component';
+import Extreme from '../../components/extreme/extreme.component';
 
 class CanvasContainer extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = ({
-      walking: true,
-      briskWalking: false,
-      running: false,
-      extreme: false,
+      serverState: "walking",
+      stateCount: 0,
+      stateVariables: ["walking", "briskWalking", "running", "extreme"],
     });
   }
 
   componentDidMount() {
     setInterval(() => {
-      const { walking, briskWalking } = this.state;
+      const { stateCount, stateVariables } = this.state;
+      const newStateCount = (stateCount + 1) % 4;
       this.setState({
         ...this.state,
-        walking: !walking,
-        briskWalking: !briskWalking,
+        stateCount: newStateCount,
+        serverState: stateVariables[newStateCount],
       });
     }, 6000);
   }
 
   render() {
-    const { walking, briskWalking } = this.state;
+    const { serverState } = this.state;
 
     return (
       <div className='canvas'>
         {
-          walking ? (<Walking/>) : null
+          serverState === "walking" ? (<Walking/>) : null
         }
         {
-          briskWalking ? (<BriskWalking/>) : null
+          serverState === "briskWalking" ? (<BriskWalking/>) : null
+        }
+        {
+          serverState === "running" ? (<Running/>) : null
+        }
+        {
+          serverState === "extreme" ? (<Extreme/>) : null
         }
       </div>
     )
