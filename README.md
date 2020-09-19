@@ -17,7 +17,7 @@ A server with human characteristics. Implemented in [React](https://reactjs.org/
 
 3. GIF
 
-![Silly-Server](https://raw.githubusercontent.com/Vedant1202/silly-server/master/screencasts/home.gif)
+![Silly-Server](https://raw.githubusercontent.com/Vedant1202/silly-server/master/screencasts/cast.gif)
 
 
 
