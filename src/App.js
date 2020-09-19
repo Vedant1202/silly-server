@@ -3,15 +3,19 @@ import React from 'react';
 import './App.css';
 import CanvasContainer from './containers/canvas/canvas.container';
 import ControlsContainer from './containers/controls/controls.container';
+import { Sugar } from 'react-preloaders';
 
 function App() {
   return (
-    <div className="App">
-      <div className="flex-container">
-        <CanvasContainer />
-        <ControlsContainer />
+    <React.Fragment>
+      <div className="App">
+        <div className="flex-container">
+          <CanvasContainer />
+          <ControlsContainer />
+        </div>
       </div>
-    </div>
+      <Sugar color={'#fff'} background="#085269" />
+    </React.Fragment>
   );
 }
 
