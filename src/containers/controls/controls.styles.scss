@@ -1,6 +1,8 @@
-.controls {
-  background-color: blue;
+.controlsContainer {
   width: 35vw;
   height: 100vh;
-  padding: 10px;
+  padding: 2vh 2vw 20vh 2vw;
+  // overflow-y: scroll;
+  background-color: white;
+  position: relative;
 }
