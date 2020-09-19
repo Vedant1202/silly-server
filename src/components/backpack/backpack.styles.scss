@@ -1,0 +1,19 @@
+.backpack {
+  position: absolute;
+  left: 10vw;
+  top: 15vh;
+  z-index: 0;
+}
+
+
+@keyframes bounceBackPack {
+  0% {
+    transform: translateY(0vh);
+  }
+  50% {
+    transform: translateY(2vh);
+  }
+  100% {
+    transform: translateY(-1vh);
+  }
+}
