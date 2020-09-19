@@ -1,0 +1,7 @@
+.computation-range {
+  cursor: grab;
+
+  &:active {
+    cursor: grabbing;
+  }
+}
