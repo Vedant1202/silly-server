@@ -37,7 +37,9 @@ Or if you have npm
 npm start
 ```
 
-## ---
+This project is licensed with the [MIT License](https://opensource.org/licenses/MIT).
+
+## ***********************************************************
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
