@@ -10,6 +10,7 @@
   width: 5vw;
   top: -16vh;
   left: -5vw;
+  z-index: 1;
   transform: rotate(80deg);
   animation: swayLeftWalking 3.5s infinite;
   animation-direction: alternate;
@@ -20,7 +21,7 @@
   width: 7vw;
   top: -12vh;
   left: -17vw;
-  z-index: 2;
+  z-index: 3;
   animation: swayRightWalking 3.5s infinite;
   transform: rotate(160deg);
   transform-origin: bottom left;
@@ -30,7 +31,7 @@
 .serverBodyWalking {
   position: relative;
   width: 15vw;
-  z-index: 1;
+  z-index: 2;
   animation: bounceWalking 3.5s infinite;
 }
 
