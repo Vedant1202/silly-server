@@ -5,6 +5,22 @@ A server with human characteristics. Implemented in [React](https://reactjs.org/
 ### The deployed version can be found at [https://vedant1202.github.io/silly-server/](https://vedant1202.github.io/silly-server/)
 
 
+## Screencasts
+
+1. Happy
+
+![Happy](https://raw.githubusercontent.com/Vedant1202/silly-server/master/screencasts/static-home.png)
+
+2. Panic
+
+![Panic](https://raw.githubusercontent.com/Vedant1202/silly-server/master/screencasts/static-home-panic.png)
+
+3. GIF
+
+![Silly-Server](https://raw.githubusercontent.com/Vedant1202/silly-server/master/screencasts/home.gif)
+
+
+
 ## Installation
 
 This project would require [npm](https://www.npmjs.com/) and [node.js](https://nodejs.org/en/) already installed.
