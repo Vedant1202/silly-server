@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/silly-server/static/css/main.fe7ce5b3.chunk.css",
+    "main.js": "/silly-server/static/js/main.af0ac120.chunk.js",
+    "main.js.map": "/silly-server/static/js/main.af0ac120.chunk.js.map",
+    "runtime-main.js": "/silly-server/static/js/runtime-main.d86260ea.js",
+    "runtime-main.js.map": "/silly-server/static/js/runtime-main.d86260ea.js.map",
+    "static/js/2.b4bb0409.chunk.js": "/silly-server/static/js/2.b4bb0409.chunk.js",
+    "static/js/2.b4bb0409.chunk.js.map": "/silly-server/static/js/2.b4bb0409.chunk.js.map",
+    "index.html": "/silly-server/index.html",
+    "precache-manifest.fcfb0c267c6afbe7bf7f2aef5f18aef8.js": "/silly-server/precache-manifest.fcfb0c267c6afbe7bf7f2aef5f18aef8.js",
+    "service-worker.js": "/silly-server/service-worker.js",
+    "static/css/main.fe7ce5b3.chunk.css.map": "/silly-server/static/css/main.fe7ce5b3.chunk.css.map",
+    "static/js/2.b4bb0409.chunk.js.LICENSE.txt": "/silly-server/static/js/2.b4bb0409.chunk.js.LICENSE.txt",
+    "static/media/backpack.svg": "/silly-server/static/media/backpack.7929e4f3.svg",
+    "static/media/file.svg": "/silly-server/static/media/file.3f5f4b27.svg",
+    "static/media/leftHand.svg": "/silly-server/static/media/leftHand.83a116ff.svg",
+    "static/media/rightHand.svg": "/silly-server/static/media/rightHand.1960ae0a.svg",
+    "static/media/server-2.svg": "/silly-server/static/media/server-2.3dfa25ee.svg",
+    "static/media/server-3.svg": "/silly-server/static/media/server-3.086ffc32.svg",
+    "static/media/server-4.svg": "/silly-server/static/media/server-4.d7154d51.svg",
+    "static/media/server.svg": "/silly-server/static/media/server.faadf3b5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d86260ea.js",
+    "static/js/2.b4bb0409.chunk.js",
+    "static/css/main.fe7ce5b3.chunk.css",
+    "static/js/main.af0ac120.chunk.js"
+  ]
+}
