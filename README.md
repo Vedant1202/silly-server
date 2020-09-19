@@ -1,8 +1,13 @@
 # Silly Server
 
+
 A server with human characteristics. Implemented in [React](https://reactjs.org/).
 
+
 ### The deployed version can be found at [https://vedant1202.github.io/silly-server/](https://vedant1202.github.io/silly-server/)
+
+
+### A youtube video for the demo can be found at [Silly Server Tales](https://youtu.be/bEpxqoQVlxU)
 
 
 ## Screencasts
