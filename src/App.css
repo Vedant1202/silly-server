@@ -1,6 +1,12 @@
+@import url("./vt323.css");
+
 body {
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  letter-spacing: 1px;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
+  background-color: darkorange;
 }
 
 .flex-container {
