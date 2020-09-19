@@ -1,3 +1,44 @@
+# Silly Server
+
+A server with human characteristics. Implemented in [React](https://reactjs.org/).
+
+### The deployed version can be found at [https://vedant1202.github.io/silly-server/](https://vedant1202.github.io/silly-server/)
+
+
+## Installation
+
+This project would require [npm](https://www.npmjs.com/) and [node.js](https://nodejs.org/en/) already installed.
+
+It is recommended to use [yarn](https://yarnpkg.com/) as a package manager. Otherwise even [npm](https://www.npmjs.com/) would do.
+
+
+1. Clone the repo
+```bash
+
+git clone https://github.com/Vedant1202/silly-server.git
+cd silly-server
+```
+
+2. Install packages
+```bash
+yarn
+```
+Or if you have npm then
+```bash
+npm install
+```
+
+3. Start the server
+```bash
+yarn start
+```
+Or if you have npm
+```bash
+npm start
+```
+
+## ---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
