@@ -2,6 +2,7 @@
   "name": "silly-server",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Vedant1202.github.io/silly-server",
   "repository": {
     "url": "https://github.com/Vedant1202/silly-server.git"
   },
@@ -29,7 +30,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier": "prettier --check **/*.js",
-    "prettier:fix": "prettier --write **/*.js"
+    "prettier:fix": "prettier --write **/*.js",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -48,6 +51,7 @@
   },
   "devDependencies": {
     "faker": "^4.1.0",
+    "gh-pages": "^3.1.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.7",
     "prettier": "^2.0.5"
