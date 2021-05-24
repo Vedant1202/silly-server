@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/silly-server/precache-manifest.acd6fb7ebef259ca4b4825b5309fa651.js"
+  "/silly-server/precache-manifest.267f9c3cdbe817520194fd97fd600435.js"
 );
 
 self.addEventListener('message', (event) => {

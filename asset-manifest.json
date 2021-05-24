@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/silly-server/static/css/main.fe7ce5b3.chunk.css",
-    "main.js": "/silly-server/static/js/main.af0ac120.chunk.js",
-    "main.js.map": "/silly-server/static/js/main.af0ac120.chunk.js.map",
+    "main.css": "/silly-server/static/css/main.1cd31f6a.chunk.css",
+    "main.js": "/silly-server/static/js/main.b9917268.chunk.js",
+    "main.js.map": "/silly-server/static/js/main.b9917268.chunk.js.map",
     "runtime-main.js": "/silly-server/static/js/runtime-main.d86260ea.js",
     "runtime-main.js.map": "/silly-server/static/js/runtime-main.d86260ea.js.map",
     "static/js/2.b4bb0409.chunk.js": "/silly-server/static/js/2.b4bb0409.chunk.js",
     "static/js/2.b4bb0409.chunk.js.map": "/silly-server/static/js/2.b4bb0409.chunk.js.map",
     "index.html": "/silly-server/index.html",
-    "precache-manifest.acd6fb7ebef259ca4b4825b5309fa651.js": "/silly-server/precache-manifest.acd6fb7ebef259ca4b4825b5309fa651.js",
+    "precache-manifest.267f9c3cdbe817520194fd97fd600435.js": "/silly-server/precache-manifest.267f9c3cdbe817520194fd97fd600435.js",
     "service-worker.js": "/silly-server/service-worker.js",
-    "static/css/main.fe7ce5b3.chunk.css.map": "/silly-server/static/css/main.fe7ce5b3.chunk.css.map",
+    "static/css/main.1cd31f6a.chunk.css.map": "/silly-server/static/css/main.1cd31f6a.chunk.css.map",
     "static/js/2.b4bb0409.chunk.js.LICENSE.txt": "/silly-server/static/js/2.b4bb0409.chunk.js.LICENSE.txt",
     "static/media/backpack.svg": "/silly-server/static/media/backpack.7929e4f3.svg",
     "static/media/file.svg": "/silly-server/static/media/file.3f5f4b27.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.d86260ea.js",
     "static/js/2.b4bb0409.chunk.js",
-    "static/css/main.fe7ce5b3.chunk.css",
-    "static/js/main.af0ac120.chunk.js"
+    "static/css/main.1cd31f6a.chunk.css",
+    "static/js/main.b9917268.chunk.js"
   ]
 }

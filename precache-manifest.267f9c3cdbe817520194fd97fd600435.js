@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8e2557d7317eb157b5754fe7b8f909b",
+    "revision": "43b54f26363c4cc061d020282c537879",
     "url": "/silly-server/index.html"
   },
   {
-    "revision": "eaba4ee1c190543d3f38",
-    "url": "/silly-server/static/css/main.fe7ce5b3.chunk.css"
+    "revision": "bd8eb5b76d6d7d5e52fa",
+    "url": "/silly-server/static/css/main.1cd31f6a.chunk.css"
   },
   {
     "revision": "73de9acac2a5b88b6eb2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/silly-server/static/js/2.b4bb0409.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eaba4ee1c190543d3f38",
-    "url": "/silly-server/static/js/main.af0ac120.chunk.js"
+    "revision": "bd8eb5b76d6d7d5e52fa",
+    "url": "/silly-server/static/js/main.b9917268.chunk.js"
   },
   {
     "revision": "d12899b51e8be39b3d2a",
